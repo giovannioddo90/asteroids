@@ -18,6 +18,8 @@ def main():
             if event.type == pygame.QUIT:
                 run = False
 
+        player.update(dt)
+
         screen.fill("black")
         pygame.display.flip()
         
